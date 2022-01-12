@@ -19,4 +19,4 @@ spec:
       - name: test-container
         image: nginx
         ports:
-        - containerPort: 8282
+        - containerPort: 80
