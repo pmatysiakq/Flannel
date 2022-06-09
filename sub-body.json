@@ -1,0 +1,54 @@
+{
+“subscription”: {
+“eventList”: [
+{
+“type”: “PRESENCE_IN_AOI_REPORT”,
+“immediateFlag”: true,
+“areaList”: [
+{
+“presenceInfo”: {
+“trackingAreaList”: [
+{
+“plmnId”: {
+“mcc”: “208”,
+“mnc”: “93”
+},
+“tac”: “000001”
+}
+]
+},
+“sNssai”: [{
+“sd”: “010203”,
+“sst”: 1
+},
+{
+“sd”: “112233”,
+“sst”: 1
+}]
+}
+],
+“udmDetectInd”: true,
+“presenceInfoList”: {},
+“maxResponseTime”: 0,
+“targetArea”: {
+“taList”: [
+{
+“plmnId”: {
+“mcc”: “208”,
+“mnc”: “93”
+},
+“tac”: “1”
+}
+]
+}
+}
+],
+“anyUE”:true,
+“notifyCorrelationId”: “504”,
+“nfId”: “a42e3a30-deb8-4510-8915-ca639aacb3d7”,
+“options”: {
+“trigger”: “ONE_TIME”
+}
+}
+}
+
